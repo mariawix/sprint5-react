@@ -1,0 +1,21 @@
+{
+  "extends": "./node_modules/eslint-config-coding-standard/config.eslintrc",
+  "rules": {
+    "global-strict": [2, "never"]
+  },
+  "env": {
+    "browser": true,
+    "node": false,
+    "amd": false,
+    "jasmine": false
+  },
+  "globals": {
+    "require": true,
+    "document": false,
+    "view": true,
+    "app": true,
+    "module": true,
+    "quantityButtons": true,
+    "_": false
+  }
+}
